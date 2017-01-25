@@ -1,0 +1,65 @@
+header {
+    .icon {
+        a {
+            color: #ddd;
+        }
+    }
+    .topnav {
+        a {
+            color: #e2e2e2;
+        }
+        li:hover a,
+        li.active a {
+            color: #ffac55;
+        }
+    }
+    .phone-number {
+        color: #ffffff;
+        &:hover {
+            color: #03b6e7;
+        }
+    }
+    .email-icon {
+        background-color: #03b6e7;
+    }
+    h1,
+    .h1-desc {
+        color: #ffffff;
+    }
+    .owl-carousel {
+        color: #ffffff;
+        .item {
+            background-color: #03b6e7;
+            &:hover {
+                background-color: #f6961b;
+            }
+            a {
+                color: #ffffff;
+            }
+        }
+    }
+    .owl-dots {
+        .active {
+            border-color: #16d428;
+            span {
+                background: #16d428;
+            }
+        }
+        .owl-dot:hover {
+            border-color: #16d428;
+            span {
+                background: #16d428;
+            }
+        }
+    }
+}
+
+h2 {
+    color: #343a3b;
+}
+
+.section-about-us {
+    .about-us-desc {
+        color: #838b8c;
+    }
+}

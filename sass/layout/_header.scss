@@ -1,0 +1,110 @@
+header {
+    background: url("../images/header-back.png") no-repeat top;
+    background-size: cover;
+    padding: 39px 0 68px;
+    .header-logo {
+        float: left;
+        a {
+            display: block;
+        }
+    }
+    .topnav {
+        margin-left: 74px;
+        padding-top: 12px;
+        float: left;
+        li {
+            float: left;
+            margin: 0 18px;
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+        }
+    }
+    .icon {
+        display: none;
+        padding-right: 30px;
+        a {
+            display: inline-block;
+            text-decoration: none;
+            text-align: center;
+            padding: 2px;
+        }
+    }
+    .phone-block {
+        float: right;
+        & > a {
+            float: left;
+            &:last-child {
+                margin-left: 22px;
+            }
+        }
+    }
+    .phone-icon {
+        width: 20px;
+        height: 19px;
+        background: url("../images/phone-icon.png") no-repeat center;
+        margin-top: 11px;
+        float: left;
+    }
+    .phone-number {
+        padding: 10px 0 0 13px;
+        float: left;
+    }
+    .email-icon {
+        width: 31px;
+        height: 31px;
+        border-radius: 31px;
+        background: url("../images/email-icon.png") no-repeat center;
+        margin-top: 3px;
+    }
+    h1,
+    .h1-desc {
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .h1-desc {
+        margin-bottom: 52px;
+    }
+    h1 {
+        margin: 158px 0 8px;
+    }
+    .owl-carousel {
+        text-transform: uppercase;
+        .item {
+            width: 262px;
+            height: 282px;
+            display: flex;
+            a {
+                margin: auto;
+                text-decoration: none;
+                div:last-child {
+                    margin-top: 22px;
+                }
+            }
+            img {
+                width: auto;
+                margin: 0 auto;
+            }
+        }
+        .owl-dots {
+            text-align: center;
+            margin-top: 103px;
+        }
+        .owl-dot {
+            width: 16px;
+            height: 16px;
+            border: 2px solid #ffffff;
+            border-radius: 12px;
+            display: inline-flex;
+            margin: 0 3px;
+            span {
+                height: 4px;
+                width: 4px;
+                background: #ffffff;
+                border-radius: 4px;
+                margin: auto;
+            }
+        }
+    }
+}

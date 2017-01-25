@@ -1,0 +1,29 @@
+h2 {
+    text-transform: uppercase;
+}
+
+.section-about-us {
+    padding: 88px 0 84px;
+    text-align: center;
+    .about-us-desc {
+        margin: 30px auto 32px;
+        padding: 0 15px;
+        max-width: 706px;
+    }
+    .about-us-carousel-wrap {
+        border-top: 1px solid #e7eff1;
+        padding-top: 54px;
+        margin-top: 68px;
+    }
+    .owl-carousel {
+        .item {
+            img {
+                width: auto;
+            }
+        }
+    }
+}
+
+.section-our-features {
+    
+}

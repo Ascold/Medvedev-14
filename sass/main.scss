@@ -1,0 +1,24 @@
+@import "bootstrap-sprockets";
+
+@import 'utils/variables';
+
+@import "bootstrap";
+
+@import "components/buttons";
+
+@import 'libs/owl.carousel.min';
+@import 'libs/owl.theme.default.min';
+
+@import 'base/typography';
+
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+
+@import 'pages/home';
+
+@import 'media/media';
+
+@import 'themes/theme';
+
+

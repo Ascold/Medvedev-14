@@ -1,0 +1,48 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    .icon {
+        a {
+            font-size: 36px;
+        }
+    }
+    .topnav {
+        a {
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+    .phone-number {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    h1 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .h1-desc {
+        font-size: 48px;
+        font-weight: 700;
+    }
+    .owl-carousel {
+        a {
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+.section-about-us {
+    .about-us-desc {
+        font-family: $font-stack-secondary;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+}
