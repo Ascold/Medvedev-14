@@ -63,3 +63,105 @@ h2 {
         color: #838b8c;
     }
 }
+
+.section-our-features {
+    background-color: #e7eff1;
+    .our-features-logo {
+        div {
+            background-color: #ffffff;
+        }
+    }
+    .our-features-title{
+        a {
+            color: #343a3b;
+        }
+    }
+    .our-features-desc {
+        color: #838b8c;
+    }
+    .boost-your-business {
+        background-color: #565d5d;
+    }
+    .boost-desc {
+        color: #ffffff;
+    }
+}
+
+.section-projects {
+    .projects-aside {
+        color: #ffffff;
+        .projects-aside-content {
+            background-color: #f6961b;
+        }
+    }
+    .owl-carousel {
+        .owl-dots {
+            .active {
+                border-color: #16d428;
+                span {
+                    background: #16d428;
+                }
+            }
+            .owl-dot:hover {
+                border-color: #16d428;
+                span {
+                    background: #16d428;
+                }
+            }
+        }
+    }
+    .projects-slider {
+        .projects-slider-title {
+            color: #343a3b;
+        }
+        .projects-slider-desc {
+            color: #838b8c;
+        }
+    }
+}
+
+.section-services {
+    background-color: #fffaf3;
+    h3 {
+        color: #343a3b;
+    }
+}
+
+.section-testimonials {
+    background: #03b6e7;
+    h2 {
+        color: #ffffff;
+    }
+    .test-desc {
+        color: #ddf8ff;
+    }
+    .client-name {
+        color: #ffffff;
+    }
+    .designation {
+        color: #ddf8ff;
+    }
+}
+
+.section-our-blog {
+    background-color: #e7eff1;
+    .blog-wrap {
+        background-color: #ffffff;
+    }
+    .blog-date,
+    .blog-title {
+        a {
+            color: #343a3b;
+        }
+    }
+    .blog-desc {
+            color: #838b8c;
+    }
+}
+
+.section-contact {
+    color: #343a3b;
+    a {
+        color: #343a3b;
+    }
+}

@@ -18,10 +18,17 @@ $(document).ready(function(){
     });
     $('#about-us-carousel').owlCarousel({
         loop: true,
-        margin: 62,
+        margin: 56,
         items: 5,
         dots: false,
         nav: true,
         navText: ["",""]
+    });
+    $('#estate-carousel').owlCarousel({
+        loop: true,
+        items: 1,
+        // margin: 27,
+        nav: false,
+        dots: true
     });
 });
