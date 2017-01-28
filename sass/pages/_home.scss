@@ -49,7 +49,7 @@ h2 {
     .our-features-wrap {
         margin: 68px 0 40px;
         max-width: 1140px;
-        display: flex;
+        @include flexbox();
         flex-flow: row wrap;
         .our-features-inner {
             width: 40%;
@@ -93,7 +93,7 @@ h2 {
                 height: 130px;
                 border-radius: 130px;
                 box-shadow: 0 0 65px #d6e4e7;
-                display: flex;
+                @include flexbox();
             }
             img {
                 margin: auto;
@@ -121,7 +121,7 @@ h2 {
     .projects-wrap {
         margin: 28px 0 45px;
         max-width: 1140px;
-        display: flex;
+        @include flexbox();
         flex-flow: row wrap;
         .projects-aside {
             position: relative;
@@ -205,7 +205,7 @@ h2 {
         margin-top: 52px;
         max-width: 1100px;
         text-align: left;
-        display: flex;
+        @include flexbox();
         flex-flow: row wrap;
     }
     .services-inner {
@@ -305,7 +305,7 @@ h2 {
     .blog-wrap {
         max-width: 1125px;
         margin: 35px 0 62px;
-        display: flex;
+        @include flexbox();
         flex-flow: row wrap;
         text-align: left;
     }
@@ -351,9 +351,9 @@ h2 {
 .section-contact {
     padding: 88px 0 100px;
     .contact-wrap {
-        display: flex;
+        @include flexbox();
         flex-flow: row wrap;
-        max-width: 1140px;
+        max-width: 1138px;
         margin-top: 28px;
         .contact-inner {
             width: 31.4%;
@@ -361,6 +361,27 @@ h2 {
             padding: 38px 0 30px 36px;
             &:not(:last-child) {
                 margin-right: 32px;
+            }
+            &:nth-child(1) {
+                .contact-img div {
+                    width: 58px;
+                    height: 59px;
+                    background: url("../images/icon-email.png") no-repeat center;
+                }
+            }
+            &:nth-child(2) {
+                .contact-img div {
+                    width: 56px;
+                    height: 44px;
+                    background: url("../images/icon-call.png") no-repeat center;
+                }
+            }
+            &:nth-child(3) {
+                .contact-img div {
+                    width: 56px;
+                    height: 56px;
+                    background: url("../images/icon-career.png") no-repeat center;
+                }
             }
         }
         .contact-img {
@@ -375,3 +396,4 @@ h2 {
         }
     }
 }
+

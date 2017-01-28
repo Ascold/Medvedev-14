@@ -165,3 +165,57 @@ h2 {
         color: #343a3b;
     }
 }
+
+footer {
+    background-color: #262829;
+    .footer-title {
+        color: #e1e1e1;
+    }
+    .form-desc,
+    ul a {
+        color: #838b8c;
+        &:hover {
+            color: #838b8c;
+        }
+    }
+    input {
+        color: #e1e1e1;
+        background-color: #323334;
+    }
+    button {
+        color: #ffffff;
+        background-color: #16d428;
+    }
+    ::-webkit-input-placeholder {
+        color: #5e5e5e;
+        text-transform: uppercase;
+    }
+    :-moz-placeholder {
+        color: #5e5e5e;
+        text-transform: uppercase;
+    }
+    :-ms-input-placeholder {
+        text-transform: uppercase;
+        color: #5e5e5e;
+    }
+    .copyright {
+        color: #838b8c;
+    }
+    .footer-social {
+        .facebook a {
+            color: #385da5;
+        }
+        .twitter a {
+            color: #00b5da;
+        }
+        .instagram a {
+            color: #d4c5a8;
+        }
+        .linkedin a {
+            color: #1883bb;
+        }
+        .google a {
+            color: #e4463b;
+        }
+    }
+}

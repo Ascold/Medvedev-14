@@ -38,6 +38,7 @@ h2 {
     font-size: 32px;
     font-weight: 700;
 }
+
 .section-about-us {
     .about-us-desc {
         font-family: $font-stack-secondary;
@@ -145,6 +146,39 @@ h2 {
     .contact-desc {
         font-family: $font-stack-secondary;
         font-size: 18px;
+        font-weight: 400;
+    }
+}
+
+footer {
+    .footer-title {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .footer-inner ul a {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .form-desc {
+        font-family: $font-stack-secondary;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    input {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    button {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .copyright {
+        font-family: $font-stack-secondary;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .footer-social a {
+        font-size: 13px;
         font-weight: 400;
     }
 }

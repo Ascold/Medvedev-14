@@ -74,7 +74,7 @@ header {
         .item {
             width: 262px;
             height: 282px;
-            display: flex;
+            @include flexbox();
             a {
                 margin: auto;
                 text-decoration: none;
