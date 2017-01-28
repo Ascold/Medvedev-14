@@ -8,22 +8,58 @@ function myFunction() {
     }
 }
 
-$(document).ready(function(){
+$(document).ready(function () {
     $('#header-carousel').owlCarousel({
-        loop: true,
-        items: 4,
+        loop: false,
         margin: 27,
         nav: false,
-        dots: true
+        dots: true,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            550: {
+                items: 2
+            },
+            900: {
+                items: 3
+            },
+            1170: {
+                items: 4
+            }
+        }
     });
+});
+$(document).ready(function () {
     $('#about-us-carousel').owlCarousel({
         loop: true,
         margin: 56,
-        items: 5,
         dots: false,
         nav: true,
-        navText: ["",""]
+        navText: ["", ""],
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                margin: 10
+            },
+            550: {
+                items: 2,
+            },
+            750: {
+                items: 3
+            },
+            850: {
+                items: 4
+            },
+            1200: {
+                items: 5
+            }
+        }
     });
+});
+$(document).ready(function () {
     $('#estate-carousel').owlCarousel({
         loop: true,
         items: 1,

@@ -23,7 +23,7 @@ header {
     }
     .icon {
         display: none;
-        padding-right: 30px;
+        padding-right: 270px;
         a {
             display: inline-block;
             text-decoration: none;
@@ -98,12 +98,18 @@ header {
             border-radius: 12px;
             display: inline-flex;
             margin: 0 3px;
+            &:hover span {
+                background: #ffffff;
+            }
             span {
                 height: 4px;
                 width: 4px;
-                background: #ffffff;
+                background: transparent;
                 border-radius: 4px;
                 margin: auto;
+                &:hover {
+                    display: block;
+                }
             }
         }
     }

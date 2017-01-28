@@ -123,9 +123,10 @@ h2 {
         max-width: 1140px;
         @include flexbox();
         flex-flow: row wrap;
+        justify-content: space-between;
         .projects-aside {
             position: relative;
-            margin-right: 32px;
+            //margin-right: 32px;
             width: 31.4%;
             text-align: left;
             .projects-aside-content {
@@ -161,10 +162,13 @@ h2 {
                 border-radius: 12px;
                 display: inline-flex;
                 margin: 0 3px;
+                &:hover span {
+                    background: #ffffff;
+                }
                 span {
                     height: 4px;
                     width: 4px;
-                    background: #ffffff;
+                    background: transparent;
                     border-radius: 4px;
                     margin: auto;
                 }
@@ -188,6 +192,9 @@ h2 {
             }
             .projects-slider-desc {
                 max-width: 612px;
+            }
+            img {
+                width: 100%;
             }
         }
     }
@@ -320,8 +327,8 @@ h2 {
             }
         }
         .blog-content {
-            padding: 46px 0 97px 244px;
-        }
+             padding: 46px 0 97px 244px;
+         }
         .blog-desc {
             max-width: 506px;
         }
@@ -353,15 +360,13 @@ h2 {
     .contact-wrap {
         @include flexbox();
         flex-flow: row wrap;
+        justify-content: space-between;
         max-width: 1138px;
         margin-top: 28px;
         .contact-inner {
             width: 31.4%;
             border: 1px solid #e1eaec;
             padding: 38px 0 30px 36px;
-            &:not(:last-child) {
-                margin-right: 32px;
-            }
             &:nth-child(1) {
                 .contact-img div {
                     width: 58px;
