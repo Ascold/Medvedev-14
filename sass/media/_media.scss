@@ -322,6 +322,28 @@
             }
         }
     }
+    footer {
+        .footer-social {
+            margin-top: 50px;
+            text-align: center;
+            .copyright {
+                display: inline-block;
+                float: none;
+                margin-bottom: 30px;
+            }
+            ul {
+                float: none;
+                li {
+                    display: block;
+                    &:not(:last-child) {
+                        margin: 0 0 30px;
+                    }
+                }
+                
+            }
+        }
+        
+    }
 }
 
 @media (max-width: 800px) {
@@ -691,6 +713,7 @@
             }
         }
         form {
+            text-align: center;
             input {
                 width: 100%;
                 padding: 16px 0 18px 34px;
@@ -698,9 +721,10 @@
             }
             button {
                 width: 134px;
-                margin: 0 auto;
+                margin: 40px 0 0;
                 padding: 16px 23px 15px 23px;
-                float: right;
+                float: none;
+                display: inline-block;
                 text-transform: uppercase;
             }
         }
